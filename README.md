@@ -33,7 +33,7 @@ The trials focus on:
 
 ---
 
-## 📚 Dataset Information
+## Dataset Information
 
 **Source:** [Akshay Dattatray Khare — Diabetes Dataset (Kaggle)](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)
 
@@ -156,7 +156,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 ```
 ---
 
-###5. Train KNN and Tune K
+### 5. Train KNN and Tune K
 ```python
 test_scores, train_scores = [], []
 for k in range(1,15):
